@@ -17,9 +17,13 @@ The primary goal of this project is to build a predictive model to estimate Cust
 We used Python to preprocess data, derive meaningful features, and train a linear regression model to predict CLV. Visualizations were employed to understand data patterns and model performance, ensuring clarity and accuracy throughout.
 
 #### Dataset
+
 **Size**: 10,000 customer records.
-**Forma**t: CSV file.
+
+**Format**: CSV file.
+
 **Key Variables**:
+
 - Demographic data (e.g., Gender, Geography).
 - Financial metrics (e.g., Balance, Estimated Salary).
 - Customer behavior data (e.g., Tenure, Number of Products, Loyalty Points).

@@ -10,8 +10,8 @@ This project focuses on predicting Customer Lifetime Value (CLV) using machine l
 The primary goal of this project is to build a predictive model to estimate Customer Lifetime Value (CLV) based on historical customer data, enabling businesses to:
 
 - Segment high-value customers.
-- Optimize marketing strategies.
-- Personalize customer experiences.
+- Optimise marketing strategies.
+- Personalise customer experiences.
 
 ### Approach:
 We used Python to preprocess data, derive meaningful features, and train a linear regression model to predict CLV. Visualizations were employed to understand data patterns and model performance, ensuring clarity and accuracy throughout.
@@ -72,11 +72,11 @@ Imported the dataset using Pandas from a locally stored CSV file.
 **Data Preparation:**
 
 - Cleaned and transformed raw data.
-- Encoded categorical variables and standardized numerical features.
+- Encoded categorical variables and standardised numerical features.
 
 **Exploratory Data Analysis (EDA):**
 
-- Visualized feature relationships and patterns.
+- Visualised feature relationships and patterns.
 - Identified and resolved multicollinearity using correlation heatmaps.
 
 **Predictive Modeling:**

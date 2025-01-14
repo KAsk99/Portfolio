@@ -4,19 +4,19 @@
 
 This project focuses on predicting Customer Lifetime Value (CLV) using machine learning techniques, with the aim of providing actionable insights for data-driven decision-making. By leveraging Python’s powerful data science libraries, the project integrates data preparation, analysis, visualization, and predictive modeling in an efficient and scalable workflow.
 
-### Project Overview
+## Project Overview
 
-#### Objective:
+### Objective:
 The primary goal of this project is to build a predictive model to estimate Customer Lifetime Value (CLV) based on historical customer data, enabling businesses to:
 
 - Segment high-value customers.
 - Optimize marketing strategies.
 - Personalize customer experiences.
 
-#### Approach:
+### Approach:
 We used Python to preprocess data, derive meaningful features, and train a linear regression model to predict CLV. Visualizations were employed to understand data patterns and model performance, ensuring clarity and accuracy throughout.
 
-#### Dataset
+### Dataset
 
 **Size**: 10,000 customer records.
 
@@ -28,7 +28,7 @@ We used Python to preprocess data, derive meaningful features, and train a linea
 - Financial metrics (e.g., Balance, Estimated Salary).
 - Customer behavior data (e.g., Tenure, Number of Products, Loyalty Points).
 
-#### Key Features
+### Key Features
 
 **Data Cleaning:**
 
@@ -52,7 +52,7 @@ We used Python to preprocess data, derive meaningful features, and train a linea
 - Pair plots and distribution plots to explore patterns.
 - Residual and scatter plots to assess model performance.
 
-#### Tools & Libraries
+### Tools & Libraries
 
 **Development Environment:**
 
@@ -64,7 +64,7 @@ We used Python to preprocess data, derive meaningful features, and train a linea
 - Scikit-learn: Machine learning and evaluation metrics.
 - Seaborn & Matplotlib: Data visualization and insights.
 
-#### Workflow
+### Workflow
 
 **Data Loading:**
 Imported the dataset using Pandas from a locally stored CSV file.
@@ -89,7 +89,7 @@ Imported the dataset using Pandas from a locally stored CSV file.
 - Analysed model performance using evaluation metrics.
 - Presented feature importance to highlight key drivers of CLV.
 
-#### How to Run
+### How to Run
 
 **Prerequisites:**
 Ensure you have the following installed:
@@ -114,7 +114,7 @@ jupyter notebook
 ```
 4) Run the notebook step by step to reproduce the results.
 
-#### Results
+### Results
 
 **Key Findings:**
 
@@ -132,7 +132,7 @@ MSE: 125,678.90
 - Correlation heatmaps revealed multicollinearity, guiding feature selection.
 - Residual plots confirmed model assumptions.
 
-#### Future Work
+### Future Work
 
 **1) Model Improvements:**
 
